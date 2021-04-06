@@ -1,4 +1,4 @@
-# Evaluation of a Low-cost IP over VLCSystem for the IoT
+# Evaluation of a Low-cost IP over VLC System for the IoT
 
 ## Bachelorthesis Artifacts
 
