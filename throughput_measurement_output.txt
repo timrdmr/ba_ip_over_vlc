@@ -1,0 +1,120 @@
+-------------
+Run data rate test with data rate of 1000 bits/s
+-------------
+['sed', '-i', 's/#define DATARATE_BITS_PER_SECOND.*/#define DATARATE_BITS_PER_SECOND 1000/', 'vlc_netif.c']
+Start compiling...
+Compiled successfully
+Try to flash device s with number 0
+Try to flash device r with number 1
+Successfully flashed device r with number 1
+Successfully flashed device s with number 0
+All flashed!
+1288.0
+1288000
+30000000
+Send: udp_latency_server 5000000 100 1 to /dev/ttyACM1
+Waiting for response
+[/dev/ttyACM1] 1616588742.2661028 - udp_latency_server 5000000 100 1
+[WARNING] Cannot parse package number
+[/dev/ttyACM1] 1616588742.2664769 - rr
+Send: udp_latency_client 30000000 100 1288000 1 to /dev/ttyACM0
+[/dev/ttyACM0] 1616588742.2714565 - udp_latency_client 30000000 100 1288000 1
+[WARNING] Cannot parse package number
+[/dev/ttyACM0] 1616588742.2721088 - su 0
+[/dev/ttyACM0] 1616588742.2728596 - sl 0
+[/dev/ttyACM0] 1616588743.566262 - su 1
+[/dev/ttyACM1] 1616588743.5797594 - rl 0
+[/dev/ttyACM0] 1616588743.580308 - sl 1
+[/dev/ttyACM1] 1616588743.5805016 - ru 0
+[/dev/ttyACM0] 1616588744.8595724 - su 2
+[/dev/ttyACM1] 1616588744.88409 - rl 1
+[/dev/ttyACM0] 1616588744.8845744 - sl 2
+[/dev/ttyACM1] 1616588744.884711 - ru 1
+[/dev/ttyACM0] 1616588746.1529799 - su 3
+[/dev/ttyACM1] 1616588746.190346 - rl 2
+[/dev/ttyACM0] 1616588746.1909006 - sl 3
+[/dev/ttyACM1] 1616588746.1911001 - ru 2
+[/dev/ttyACM0] 1616588747.4464269 - su 4
+[/dev/ttyACM1] 1616588747.4947636 - rl 3
+[/dev/ttyACM0] 1616588747.4951143 - sl 4
+[/dev/ttyACM1] 1616588747.4952786 - ru 3
+[/dev/ttyACM0] 1616588748.739596 - su 5
+[/dev/ttyACM1] 1616588748.8017445 - rl 4
+[/dev/ttyACM0] 1616588748.8024871 - sl 5
+[/dev/ttyACM1] 1616588748.802603 - ru 4
+[/dev/ttyACM0] 1616588750.0329568 - su 6
+[/dev/ttyACM1] 1616588750.1100278 - rl 5
+[/dev/ttyACM0] 1616588750.1105802 - sl 6
+[/dev/ttyACM1] 1616588750.1106985 - ru 5
+[/dev/ttyACM0] 1616588751.3266015 - su 7
+[/dev/ttyACM1] 1616588751.4195726 - rl 6
+[/dev/ttyACM0] 1616588751.4200935 - sl 7
+[/dev/ttyACM1] 1616588751.4203026 - ru 6
+[/dev/ttyACM0] 1616588752.6202002 - su 8
+[/dev/ttyACM1] 1616588752.7291348 - rl 7
+[/dev/ttyACM0] 1616588752.729642 - sl 8
+[/dev/ttyACM1] 1616588752.729762 - ru 7
+[/dev/ttyACM0] 1616588753.9136994 - su 9
+[/dev/ttyACM1] 1616588754.0354202 - rl 8
+[/dev/ttyACM0] 1616588754.0359664 - sl 9
+[/dev/ttyACM1] 1616588754.036241 - ru 8
+[/dev/ttyACM0] 1616588755.2069829 - su 10
+[/dev/ttyACM1] 1616588755.3435857 - rl 9
+[/dev/ttyACM0] 1616588755.3441935 - sl 10
+[/dev/ttyACM1] 1616588755.3443618 - ru 9
+[/dev/ttyACM0] 1616588756.5003183 - su 11
+[/dev/ttyACM1] 1616588756.6507807 - rl 10
+[/dev/ttyACM1] 1616588756.651629 - ru 10
+[/dev/ttyACM0] 1616588757.2803125 - sl 11
+[/dev/ttyACM0] 1616588757.793715 - su 12
+[/dev/ttyACM1] 1616588758.5855916 - rl 11
+[/dev/ttyACM0] 1616588758.5861726 - sl 12
+[/dev/ttyACM1] 1616588758.5864186 - ru 11
+[/dev/ttyACM0] 1616588759.0872426 - su 13
+[/dev/ttyACM1] 1616588759.892618 - rl 12
+[/dev/ttyACM0] 1616588759.8931162 - sl 13
+[/dev/ttyACM1] 1616588759.8933764 - ru 12
+[/dev/ttyACM0] 1616588760.3805594 - su 14
+[/dev/ttyACM1] 1616588761.1986816 - rl 13
+[/dev/ttyACM0] 1616588761.1991072 - sl 14
+[/dev/ttyACM1] 1616588761.1994073 - ru 13
+[/dev/ttyACM0] 1616588761.673614 - su 15
+[/dev/ttyACM1] 1616588762.5059285 - rl 14
+[/dev/ttyACM0] 1616588762.5064192 - sl 15
+[/dev/ttyACM1] 1616588762.50659 - ru 14
+[/dev/ttyACM0] 1616588762.9670224 - su 16
+[/dev/ttyACM1] 1616588763.8124077 - rl 15
+[/dev/ttyACM1] 1616588763.8130689 - ru 15
+[/dev/ttyACM0] 1616588763.8131394 - sl 16
+[/dev/ttyACM0] 1616588764.2606735 - su 17
+[/dev/ttyACM1] 1616588765.1176093 - rl 16
+[/dev/ttyACM0] 1616588765.118091 - sl 17
+[/dev/ttyACM1] 1616588765.1183379 - ru 16
+[/dev/ttyACM0] 1616588765.5538895 - su 18
+[/dev/ttyACM1] 1616588766.424643 - rl 17
+[/dev/ttyACM0] 1616588766.4251153 - sl 18
+[/dev/ttyACM1] 1616588766.4253714 - ru 17
+[/dev/ttyACM0] 1616588766.847073 - su 19
+[/dev/ttyACM1] 1616588767.7321813 - rl 18
+[/dev/ttyACM0] 1616588767.7324324 - sl 19
+[/dev/ttyACM1] 1616588767.732687 - ru 18
+[/dev/ttyACM0] 1616588768.1402805 - su 20
+[/dev/ttyACM1] 1616588769.0370595 - rl 19
+[/dev/ttyACM0] 1616588769.037696 - sl 20
+[/dev/ttyACM1] 1616588769.0379071 - ru 19
+[/dev/ttyACM0] 1616588769.4337091 - su 21
+[/dev/ttyACM1] 1616588770.3421397 - rl 20
+[/dev/ttyACM0] 1616588770.3427858 - sl 21
+[/dev/ttyACM1] 1616588770.3430066 - ru 20
+[/dev/ttyACM0] 1616588770.7271545 - su 22
+[/dev/ttyACM0] 1616588771.650175 - sl 22
+[/dev/ttyACM0] 1616588772.0207043 - su 23
+[/dev/ttyACM1] 1616588772.125962 - rl 21
+[/dev/ttyACM1] 1616588772.126523 - ru 21
+[/dev/ttyACM0] 1616588773.3135884 - fu
+[WARNING] Cannot parse, too few words
+[/dev/ttyACM0] 1616588773.5843859 - sl 23
+[/dev/ttyACM1] 1616588774.897082 - rl 23
+[/dev/ttyACM1] 1616588774.8978221 - ru 23
+[INFO] serial timeout
+[ERROR] Sender timed out!
